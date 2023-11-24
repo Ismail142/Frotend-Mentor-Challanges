@@ -16,8 +16,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ismail142/Frotend-Mentor-Challanges/qr-code-component)
-- Live Site URL: [Add live site URL here](https://vercel.live/link/frotend-mentor-challanges-qxvsrxs73-ismails-projects-cf21dd37.vercel.app?via=deployment-domains-list-commit)
+- Solution URL: https://github.com/Ismail142/Frotend-Mentor-Challanges/qr-code-component
+- Live Site URL: https://vercel.live/link/frotend-mentor-challanges-qxvsrxs73-ismails-projects-cf21dd37.vercel.app?via=deployment-domains-list-commit
 
 ## My process
 
