@@ -60,21 +60,21 @@ function setError(day, month, year, currentYear, currentMonth, currentDay) {
 	} else {
 		let calcDay = currentDay - day;
 		let calcMonth = currentMonth - month;
-		let calcYear =currentYear - year;
+		let calcYear = currentYear - year;
 
-		if (calcMonth <0){
-			calcMonth+=12;
-			calcYear--;
-		}
-		if (calcDay < 0){
-			const lastMonthDays = new Date(currentYear,currentMonth-1,0).getDate();
-			calcDay +=lastMonthDays;
+		if (calcDay < 0) {
+			const lastMonthDays = new Date(currentYear, currentMonth, 0).getDate();
+			calcDay += lastMonthDays;
 			calcMonth--;
+		}
+		if (calcMonth < 0) {
+			calcMonth += 12;
+			calcYear--;
 		}
 
 		animateNumber(dayHtml, calcDay);
-		animateNumber(monthHtml,calcMonth);
-		animateNumber(yearHtml,calcYear);
+		animateNumber(monthHtml, calcMonth);
+		animateNumber(yearHtml, calcYear);
 	}
 }
 
