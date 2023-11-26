@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Ismail142/Frotend-Mentor-Challanges/tree/age-calculator-app)
+- Solution URL: https://github.com/Ismail142/Frotend-Mentor-Challanges/tree/age-calculator-app
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
