@@ -58,12 +58,23 @@ function setError(day, month, year, currentYear, currentMonth, currentDay) {
 		if (month > currentMonth) processErrors(months, "Must be in the past");
 		if (day > currentDay) processErrors(days, "Must be in the past");
 	} else {
-		animateNumber(dayHtml, currentDay - day >= 0 ? currentDay - day : 0);
-		animateNumber(
-			monthHtml,
-			currentMonth - month >= 0 ? currentMonth - month : 0
-		);
-		animateNumber(yearHtml, Math.abs(currentYear - year));
+		let calcDay = currentDay - day;
+		let calcMonth = currentMonth - month;
+		let calcYear =currentYear - year;
+
+		if (calcMonth <0){
+			calcMonth+=12;
+			calcYear--;
+		}
+		if (calcDay < 0){
+			const lastMonthDays = new Date(currentYear,currentMonth-1,0).getDate();
+			calcDay +=lastMonthDays;
+			calcMonth--;
+		}
+
+		animateNumber(dayHtml, calcDay);
+		animateNumber(monthHtml,calcMonth);
+		animateNumber(yearHtml,calcYear);
 	}
 }
 
