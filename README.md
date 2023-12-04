@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Live Site](https://clipboard-project-ismail.netlify.app/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repositiory](https://github.com/Ismail142/Frotend-Mentor-Challanges/tree/Clipboard-landing-page)
+- Live Site URL: [live site URL](https://clipboard-project-ismail.netlify.app)
 
 ## My process
 
