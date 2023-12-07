@@ -933,12 +933,17 @@ body {
 
 @media (min-width: 768px) {
   .col {
-    max-width: 13rem;
     align-items: flex-start;
   }
 }
 
 @media (min-width: 1024px) {
+  .col {
+    max-width: 13rem;
+  }
+}
+
+@media (min-width: 1536px) {
   .col {
     max-width: 32rem;
   }
