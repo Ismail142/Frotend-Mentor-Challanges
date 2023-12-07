@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/Ismail142/Frotend-Mentor-Challanges/tree/easybank-landing-page-master)
 - Live Site URL: [live site URL](https://easybanking-ismail.netlify.app/)
 
 ## My process
