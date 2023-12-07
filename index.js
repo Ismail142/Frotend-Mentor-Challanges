@@ -12,5 +12,6 @@ if (window.innerWidth < 1024){
    mobileNav.addEventListener('click', ()=>{
       mobileNav.classList.remove("active");
       menuBtn.setAttribute('src', "images/icon-hamburger.svg");
+      btn = true;
    })
 }
