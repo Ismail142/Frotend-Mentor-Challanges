@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/Ismail142/Frotend-Mentor-Challanges/tree/loopstudios
 - Live Site URL: https://ismail142.github.io/LoopStudios-Landing-Page
 
 ## My process
