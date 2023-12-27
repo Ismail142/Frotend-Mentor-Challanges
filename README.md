@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/Ismail142/Frotend-Mentor-Challanges/tree/url-shortner
 - Live Site URL: https://url-shortner-ismail142.vercel.app/
 
 ## My process
